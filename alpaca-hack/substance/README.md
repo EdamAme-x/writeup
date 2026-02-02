@@ -22,12 +22,12 @@ print(flag * randint(2, 3) * randint(2, 3) * randint(2, 3))
 first = 70430356624056699219964353455091734195306937238245707901514922333654568000660
 second = 5585179348150525015655680494025565656820428601640301759505137819334580532521858
 
-def primeFactors(number: int) -> list[int]:
-    # 素因数分解をするためのコードだが省略
-    return factors
+def factorization(n):
+        
+    return 
 
-factors1 = primeFactors(first)
-factors2 = primeFactors(second)
+factors1 = factorization(first)
+factors2 = factorization(second)
 
 print("First number factors:", factors1)
 print("Second number factors:", factors2)
@@ -43,7 +43,8 @@ Second number factors: [2, 3, 3, 3, 3, 269, 337, 337, 1549, 503821, 4572850661, 
 Common: {2: 1, 3: 4, 4572850661: 1, 269: 1, 503821: 1, 316224362225539763970988074867563404070815390505801: 1}
 ```
 FLAGはこの素因数を組み合わせた物の一つだろうと考えました。
-後は総当たり
+
+後は総当たりで、デコード可能な物を探すだけです。
 
 総当たりに必要な試行回数については、
 それぞれの `(含まれている素因数の個数 + 1)` を掛けていけば、求まると思います。
