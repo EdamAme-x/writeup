@@ -1,0 +1,6 @@
+## Challenge
+素数の配列と、フラグをそれぞれの素数で割った余りの配列が与えられるので、フラグを推測せよ
+
+## Solution
+
+$ output[n] + primes[n] * k = flag $
