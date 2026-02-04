@@ -28,7 +28,7 @@ x ≡ ak (mod mk)
 を満たす整数 x が m1m2…mk を法として一意的に存在する。
 ```
 
-ref: https://qiita.com/masa0599/items/2c93189dcc6beee5d8c5
+ref: https://qiita.com/masa0599/items/2c93189dcc6beee5d8c5  
 ref: https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E3%81%AE%E5%89%B0%E4%BD%99%E5%AE%9A%E7%90%86
 
 中国余剰定理という国の名前を冠した定理があるらしい
