@@ -43,3 +43,10 @@ BASHの算術式ではFLOATが扱えないらしく、色々試行錯誤した�
 
 が、色々やってる内に算術式のエラーが起こると、その変数の中身が開示されるという特徴に気付いた。
 ということで、`FLAG`と入れてみたら素直に終わった。
+
+```llvm
+[Warmup] current time (seconds)?
+FLAG
+server.sh: line 6: Alpaca{...}: arithmetic syntax error: invalid arithmetic operator (error token is "{...}")
+server.sh: line 7: d1: unbound variable
+```
